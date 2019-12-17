@@ -1,7 +1,7 @@
 const fs = require('fs')
 
-const filename = './3/test-dataset5'
-// const filename = './3/dataset'
+//const filename = './3/test-dataset5'
+const filename = './3/dataset'
 
 // we know that the dataset consists of a line per wire:
 const [wire1, wire2] = fs.readFileSync(filename).toString().split('\n')
